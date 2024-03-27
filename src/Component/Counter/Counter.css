@@ -1,0 +1,45 @@
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 166, 0);
+}
+
+.main-container  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 40vw;
+    background-color: rgb(192, 218, 243);
+    gap: 1rem;
+    color: rgb(1, 199, 166);
+}
+
+#input {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+#btn1 {
+    padding: 1rem 2rem;
+    background-color: rgb(5, 32, 187);
+    border: none;
+    border-radius: 10px 20px;
+    color: white;
+}
+
+#btn2 {
+    padding: 1rem 2rem;
+    background-color: rgb(187, 5, 5);
+    border: none;
+    border-radius: 10px 20px;
+    color: white;
+}
